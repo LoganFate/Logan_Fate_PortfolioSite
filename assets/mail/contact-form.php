@@ -11,17 +11,17 @@ error_reporting(E_ALL);
 
 /**
  * Set the recipient email address.
- * 
+ *
  * FIXME: Update this to your desired email address.
  */
-$recipient = "support@themejunction.net";
+$recipient = "logan.m.fate@gmail.com";
 
 // Set the email subject.
 $sender = $conName . " { " . $conEmail . " }";
 
 
 //Email Header
-$head = "You have a new message from your Gerold website Contact Form\n=============================";
+$head = "You have a new message from your Portfolio website Contact Form\n=============================";
 
 // Build the email content.
 $form_content = "$head\n\n";
@@ -32,7 +32,7 @@ $form_content .= "Email: $conEmail\n";
 
 $form_content .= "Phone: $conPhone\n";
 
-$form_content .= "Service: $conService\n";
+// $form_content .= "Service: $conService\n";
 
 $form_content .= "Message: \n$conMessage\n";
 
