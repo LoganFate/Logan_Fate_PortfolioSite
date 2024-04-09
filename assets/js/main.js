@@ -373,23 +373,23 @@ Description: Gerold - Personal Portfolio HTML5 Template
 					conName: "Enter your name.",
 					conEmail: "Enter a valid email.",
 				},
-				submitHandler: function (form) {
-					// start ajax request
-					$.ajax({
-						type: "POST",
-						url: "assets/mail/contact-form.php",
-						data: $("#contact-form").serialize(),
-						cache: false,
-						success: function (data) {
-							if (data == "Y") {
-								$("#message_sent").modal("show");
-								$("#contact-form").trigger("reset");
-							} else {
-								$("#message_fail").modal("show");
-							}
-						},
-					});
-				},
+				// submitHandler: function (form) {
+				// 	// start ajax request
+				// 	$.ajax({
+				// 		type: "POST",
+				// 		url: "assets/mail/contact-form.php",
+				// 		data: $("#contact-form").serialize(),
+				// 		cache: false,
+				// 		success: function (data) {
+				// 			if (data == "Y") {
+				// 				$("#message_sent").modal("show");
+				// 				$("#contact-form").trigger("reset");
+				// 			} else {
+				// 				$("#message_fail").modal("show");
+				// 			}
+				// 		},
+				// 	});
+				// },
 			});
 		}
 		/* !contact form */
