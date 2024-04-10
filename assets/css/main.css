@@ -123,7 +123,7 @@ body {
 }
 
 img {
-	max-width: 60%;
+	max-width: 70%;
 }
 
 body {
@@ -1432,7 +1432,8 @@ body.loaded {
 	transform: translateY(-50%) rotate(360deg);
 }
 .portfolio-box .image-box img {
-    min-width: 700px; /* Or your desired size */
+    max-width: 700px; /* Or your desired size */
+	width: 100%;
     height: auto; /* Adjusts height to maintain aspect ratio */
 }
 
