@@ -1344,7 +1344,7 @@ body.loaded {
 	text-align: center;
 }
 .portfolio-box .content-box {
-	position: absolute;
+	position: relative;
 	bottom: 15px;
 	left: 0;
 	background: #000;
@@ -1432,7 +1432,7 @@ body.loaded {
 	transform: translateY(-50%) rotate(360deg);
 }
 .portfolio-box .image-box img {
-    min-width: 650px; /* Or your desired size */
+    max-width: 650px; /* Or your desired size */
 	width: 100%;
     height: auto; /* Adjusts height to maintain aspect ratio */
 }
