@@ -1287,6 +1287,7 @@ body.loaded {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	gap: 20px;
 	width: 100%;
 	max-width: 960px;
@@ -1390,9 +1391,6 @@ body.loaded {
 .portfolio-box .portfolio-item:hover .content-box {
 	opacity: 1;
 	visibility: visible;
-	-webkit-transform: translateY(0);
-	-ms-transform: translateY(0);
-	transform: translateY(-50%) rotate(360deg);
 }
 .portfolio-box .portfolio-item .content-box .portfolio-title {
 	font-size: 30px;
@@ -1433,6 +1431,11 @@ body.loaded {
 	-ms-transform: translateY(-50%) rotate(360deg);
 	transform: translateY(-50%) rotate(360deg);
 }
+.portfolio-box .image-box img {
+    min-width: 500px; /* Or your desired size */
+    height: auto; /* Adjusts height to maintain aspect ratio */
+}
+
 /*  END: Portfolio Section */
 
 /*
