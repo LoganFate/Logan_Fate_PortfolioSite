@@ -2016,14 +2016,14 @@ body.loaded {
 	margin-bottom: 20px;
 }
 .testimonials-widget .testimonial-item .image-box {
-	width: 40%;
+	width: 80%;
 	max-width: 120px;
 }
 .testimonials-widget .testimonial-item .image-box img {
 	border-radius: 5px 5px 5px 125px;
 }
 .testimonials-widget .testimonial-item .logo-box {
-	max-width: 100px;
+	max-width: 200px;
 	width: 100%;
 }
 .testimonials-widget .testimonial-item .icon-box {
@@ -2057,8 +2057,9 @@ body.loaded {
 .testimonials-widget .testimonial-item .quote {
 	font-size: 16px;
 	margin-bottom: 50px;
-	height: 150px;
+	height: 250px;
 	overflow-y: auto;
+	width: 250px;
 }
 .testimonials-widget .testimonial-item .name {
 	font-size: 18px;
