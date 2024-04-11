@@ -1285,12 +1285,11 @@ body.loaded {
 .portfolio-box {
 	padding-top: 50px;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 20px;
 	width: 100vw;
-	max-width: none;
+	max-width: 1200px;
 	margin: 0 auto;
 	/* background-size: contain;
 	background-repeat: no-repeat;
@@ -1326,12 +1325,14 @@ body.loaded {
 	width: 48%;
 }
 .portfolio-box .portfolio-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	background-color: var(--tj-theme-accent-2);
 	margin-bottom: 4%;
 	padding: 36px;
 	border-radius: 10px;
 	width: 100%;
-	max-width: 600px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .portfolio-box .gutter-sizer {
@@ -1385,7 +1386,7 @@ body.loaded {
 	transform: none;
 	padding: 20px;
 	margin-top: 20px; /* Space between image and text */
-	width: 100%; /* Ensure it fills the parent width */
+	width: 50%; /* Ensure it fills the parent width */
 }
 
 .portfolio-box .portfolio-item:hover .content-box {
@@ -1430,11 +1431,28 @@ body.loaded {
 	-webkit-transform: translateY(-50%) rotate(360deg);
 	-ms-transform: translateY(-50%) rotate(360deg);
 	transform: translateY(-50%) rotate(360deg);
+	width: 50%;
 }
 .portfolio-box .image-box img {
     max-width: 650px; /* Or your desired size */
 	width: 100%;
     height: auto; /* Adjusts height to maintain aspect ratio */
+}
+.portfolio-box .portfolio-item .image-box,
+.portfolio-box .portfolio-item .content-box {
+    width: 50%; /* Assigns equal width to both */
+}
+
+.portfolio-box .portfolio-item .image-box img {
+    max-width: 100%; /* Adjusts width to fit the container */
+    height: auto; /* Adjusts height to maintain aspect ratio */
+}
+
+.portfolio-box .portfolio-item .content-box {
+    padding: 20px;
+    /* Removed transitions and positioning for direct visibility */
+    opacity: 1;
+    visibility: visible;
 }
 
 /*  END: Portfolio Section */
