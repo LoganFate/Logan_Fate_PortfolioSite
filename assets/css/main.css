@@ -2007,7 +2007,7 @@ body.loaded {
 }
 .testimonials-widget .testimonial-item {
 	background: var(--tj-theme-accent-2);
-	max-width: 300px;
+	max-width: 250px;
 	width: 100%;
 	border-radius: 15px;
 	padding: 25px;
@@ -2016,14 +2016,14 @@ body.loaded {
 	margin-bottom: 20px;
 }
 .testimonials-widget .testimonial-item .image-box {
-	width: 80%;
-	max-width: 120px;
+	width: 100%;
+	max-width: 250px;
 }
 .testimonials-widget .testimonial-item .image-box img {
 	border-radius: 5px 5px 5px 125px;
 }
 .testimonials-widget .testimonial-item .logo-box {
-	max-width: 200px;
+	max-width: 250px;
 	width: 100%;
 }
 .testimonials-widget .testimonial-item .icon-box {
@@ -2058,6 +2058,7 @@ body.loaded {
 	font-size: 16px;
 	margin-bottom: 50px;
 	height: 250px;
+	width: 250px;
 	overflow-y: auto;
 
 }
