@@ -1387,7 +1387,7 @@ body.loaded {
 	padding: 20px;
 	margin-top: 20px; /* Space between image and text */
 	width: 350px;
-	height: 300px; /* Ensure it fills the parent width */
+	height: 225px; /* Ensure it fills the parent width */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -1462,8 +1462,9 @@ body.loaded {
 
 .portfolio-box .portfolio-item .image-box img {
     width: 100%; /* Adjusts width to fit the container */
-    height: auto; /* Adjusts height to maintain aspect ratio */
-	max-width: none;
+    height: 100%; /* Adjusts height to maintain aspect ratio */
+	object-fit: cover;
+	object-position: center;
 }
 
 .portfolio-box .portfolio-item .content-box {
