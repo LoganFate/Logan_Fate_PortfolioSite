@@ -1452,8 +1452,8 @@ body.loaded {
     height: auto; /* Adjusts height to maintain aspect ratio */
 }
 .portfolio-box .portfolio-item .image-box {
-	width: 400px;
-	height: 350px;
+	width: 500px;
+	height: 450px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
