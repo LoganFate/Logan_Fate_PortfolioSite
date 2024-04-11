@@ -1386,7 +1386,20 @@ body.loaded {
 	transform: none;
 	padding: 20px;
 	margin-top: 20px; /* Space between image and text */
-	width: 50%; /* Ensure it fills the parent width */
+	width: 350px;
+	height: 300px; /* Ensure it fills the parent width */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+	padding: 20px;
+	background: linear-gradient(
+        260deg,
+        var(--tj-theme-secondary) 0%,
+        var(--tj-theme-primary) 100%
+    ); /* Adjusted background styling */
+    border-radius: 10px; /* Optional: Adds rounded corners */
 }
 
 .portfolio-box .portfolio-item:hover .content-box {
@@ -1438,14 +1451,19 @@ body.loaded {
 	width: 100%;
     height: auto; /* Adjusts height to maintain aspect ratio */
 }
-.portfolio-box .portfolio-item .image-box,
-.portfolio-box .portfolio-item .content-box {
-    width: 50%; /* Assigns equal width to both */
+.portfolio-box .portfolio-item .image-box {
+	width: 400px;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
 }
 
 .portfolio-box .portfolio-item .image-box img {
-    max-width: 100%; /* Adjusts width to fit the container */
+    width: 100%; /* Adjusts width to fit the container */
     height: auto; /* Adjusts height to maintain aspect ratio */
+	max-width: none;
 }
 
 .portfolio-box .portfolio-item .content-box {
