@@ -2057,6 +2057,8 @@ body.loaded {
 .testimonials-widget .testimonial-item .quote {
 	font-size: 16px;
 	margin-bottom: 50px;
+	height: 150px;
+	overflow-y: auto;
 }
 .testimonials-widget .testimonial-item .name {
 	font-size: 18px;

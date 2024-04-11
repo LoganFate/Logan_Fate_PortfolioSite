@@ -121,7 +121,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
   	/  Portfolio Gallery Carousel
   	/------------------------------------------------------*/
 		$(".portfolio_gallery.owl-carousel").owlCarousel({
-			items: 2,
+			items: 3,
 			loop: true,
 			lazyLoad: true,
 			center: true,
@@ -145,7 +145,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
 					margin: 20,
 				},
 				992: {
-					items: 2,
+					items: 3,
 					margin: 30,
 				},
 			},
@@ -171,7 +171,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
 					items: 2,
 				},
 				1000: {
-					items: 2,
+					items: 3,
 				},
 			},
 		});
