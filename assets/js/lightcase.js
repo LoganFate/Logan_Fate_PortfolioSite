@@ -615,6 +615,8 @@
 			_self._showContent(_self.objects.contentInner);
 		},
 
+
+
 		/**
 		 * Calculates the dimensions to fit content
 		 *
