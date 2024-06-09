@@ -2050,6 +2050,7 @@ body.loaded {
 	.testimonial-item
 	.icon-box
 	svg:last-child {
+
 	-webkit-transform: translateX(-22px) rotate(135deg);
 	-ms-transform: translateX(-22px) rotate(135deg);
 	transform: translateX(-22px) rotate(135deg);
